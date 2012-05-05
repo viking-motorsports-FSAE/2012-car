@@ -1,8 +1,8 @@
 DTA S80 data cable pinout (DB15M <-> DB9F <-> Null modem <-> DB9M)
 
 DB15 : DB9F : DB9M
-1    : 1    : 4
-2    : 2    : 3
-3    : 3    : 2
-4    : 4    : 1
-5    : 5    : 5
+1    : 1    : 4 (CD -> DTR)
+2    : 2    : 3 (RX -> TX)
+3    : 3    : 2 (TX -> RX)
+4    : 4    : 1 (DTR -> CD)
+5    : 5    : 5 (GND)
